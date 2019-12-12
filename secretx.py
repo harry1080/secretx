@@ -56,8 +56,8 @@ def extractSecrets(url):
 	pass
 
 printBanner()
+
 urlList = open(args["list"], "r").read().split("\n")
 for url in urlList:
 	threadPool.submit(extractSecrets,url)
 	pass
-threadPool.shutdown(wait=True)
