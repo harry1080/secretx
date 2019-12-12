@@ -1,5 +1,6 @@
 # SecretX
-Extracting api keys by requesting each url at the your list.
+![](example.png)
+Extracting api keys and secrets by requesting each url at the your list.
 
 ### Usage
 ```
