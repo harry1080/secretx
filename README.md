@@ -9,7 +9,7 @@ python3 -m pip install -r requirements.txt
 
 ### Usage
 ```
-python3 secretx.py --list urlList.txt --threads 15
+python3 secretx.py --list urlList.txt --threads 15 --output /dir/path/here
 
 optional arguments: --help  --colorless
   ```
